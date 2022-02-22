@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&family=Work+Sans:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    padding: 10px;
+    background: #e9d8f4;
+}
+.header{
+    padding: 10px;
+    text-align: center;
+    background: white;
+    color: #58257b ;
+}
+.header h1{
+    font-size: 450px;
+}
+.header p{
+    font-size: 20px;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #58257b;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #db7093;
+    color: white;
+}
+.letfcolum{
+    float: left;
+     width: 75%;
+}
+.rightcolum{
+    float: left;
+  width: 25%;
+  background-color: #e9d8f4;
+  padding-left: 20px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+p{
+    color: black;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: white;
+    margin-top: 10px;
+}
+.footer .credit span{
+    color:#d3ad7f;
+}
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+.footer .links a:hover{
+    color: #d3ad7f;
+}
+@media screen and (max-width: 700px) {
+    .leftcolumn, .rightcolumn { 
+      width: 100%;
+      padding: 0;
+    }
+  }
